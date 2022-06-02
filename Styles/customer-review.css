@@ -1,0 +1,53 @@
+.carousel-item{
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-fluid{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.card{
+    text-align: center;
+    align-items: center;
+    height: 500px;
+    width: 2000px;
+}
+
+.h2-speciality{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+}
+
+.h1-speciality{
+    font-weight: 300;
+    font-size: 40px;
+    color: rgb(60, 59, 59);
+    text-decoration: none; 
+    text-align: center;
+}
+
+.btn-speciality{
+    align-items: center;
+    margin-left: 725px;
+}
+.arrow{
+    background-color: rgb(243, 239, 234);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 16px #545053;
+    text-decoration: none;
+    margin-right: 4px;
+    margin-left: 4px;
+    
+}

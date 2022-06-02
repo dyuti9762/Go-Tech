@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    flex-flow: row wrap;
+    
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+li, .a-nav, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(154, 150, 150);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    height: 70px;
+    width: 170px;
+  
+    padding-top: 0px;
+}
+
+.buttons{
+    list-style: none;
+}
+.buttons li{
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 12px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 12px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+ 
+ .nav_links li:hover:before {
+    content:"";
+    position:absolute;
+    top:22px;
+    background: rgb(215, 52, 215);
+    width:8px;
+    height:8px;
+    border-radius:100%;
+    left:calc(55% - 9px);
+    color: rgb(215, 52, 215);
+ }
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(215, 52, 215);
+}
+
+.btn-contact{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-image: linear-gradient(to right, rgb(131, 32, 164), rgb(239, 145, 234));
+    border: none;
+    transition: all 0.3s ease 0s;
+    color: azure;
+    border-radius: 5px;
+}
+
+.btn-contact:hover {
+    background-image: linear-gradient(to right, rgb(32, 164, 69), rgb(239, 239, 145));
+}
+
+.home-container{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.h1-home{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.h2-home{
+    font-weight: 300;
+    font-size: 40px;
+    color: rgb(60, 59, 59);
+    text-decoration: none; 
+}
+
+.p-home{   
+    font-size: 16px;
+    color: rgb(146, 142, 142);
+    text-decoration: none;   
+}
+
+.btn-home {
+    background-color: aliceblue;
+    color: rgb(131, 32, 164);
+    border-color: rgb(131, 32, 164);
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-home:hover{
+    background-image: linear-gradient(to right, rgb(131, 32, 164), rgb(239, 145, 234));
+    color: aliceblue;
+    border: none;
+}
+
+.img-diss{
+    height: 400;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: all-scroll;
+}
+
